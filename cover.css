@@ -22,13 +22,14 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 45em;
 }
 
 
-/*
- * Header
- */
+header.mb-auto
+{
+  margin-bottom: 1vmin !important;
+}
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -51,3 +52,14 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+.lead
+{
+  text-align: justify;
+}
+.img-thumbnail
+{
+  border-radius: 50%;
+  max-width: 60%;
+  height: 20vmax;
+}
+
